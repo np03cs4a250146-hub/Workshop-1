@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Basics</title>
+  <link rel="stylesheet" href="work1.css">   <!-- connects the CSS file -->
+</head>
+
+<body>
+
+  <header>
+    <h1>Workshop 1</h1>
+    <p>Learning HTML step by step</p>
+  </header>
+
+
+  <nav>
+    <a href="#text">Text</a>
+    <a href="#lists">Lists</a>
+    <a href="#media">Media</a>
+    <a href="#footer">Footer</a>
+  </nav>
+
+  <div class="layout">
+
+  <main>
+
+    
+    <section id="text">
+      <h2>Text</h2>
+      <h3>This is a heading 3</h3>
+      <p>This is a paragraph with <strong>bold</strong> and <em>italic</em> text.</p>
+      <p>First line<br>Second line</p>
+      <a href="https://www.google.com" target="_blank">Open Google</a>
+    </section>
+
+    <!-- SECTION 2: lists and table -->
+    <section id="lists">
+      <h2>Lists and Table</h2>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+      </ul>
+
+      <ol>
+        <li>Open VS Code</li>
+        <li>Write code</li>
+      </ol>
+
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Marks</th>
+        </tr>
+        <tr>
+          <td>Aarush</td>
+          <td>90</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- SECTION 3: cards (article) -->
+    <section id="cards">
+      <h2>Cards</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>HTML</h3>
+          <p>Structure of the page.</p>
+        </article>
+        <article class="card">
+          <h3>CSS</h3>
+          <p>Style of the page.</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript</h3>
+          <p>Action on the page.</p>
+        </article>
+      </div>
+    </section>
+
+    
+    <section id="media">
+      <h2>Media</h2>
+
+      <figure>
+        <img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/elephant-660-480.jpg" alt="An elephant walking in the grass">
+        <figcaption>Figure 1: An image with a caption</figcaption>
+      </figure>
+
+      <video controls>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+      </video>
+
+      <audio controls>
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+
+  </main>
+
+  
+  <aside>
+    <h2>Sidebar</h2>
+
+    <h3>Notices</h3>
+    <ul>
+      <li>Test on Monday</li>
+      <li>Library open till 6 PM</li>
+    </ul>
+
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#text">Text</a></li>
+      <li><a href="#lists">Lists</a></li>
+      <li><a href="#media">Media</a></li>
+    </ul>
+  </aside>
+
+  </div>
+
+  
+
+  <footer id="footer">
+    <div>
+      <h3>About</h3>
+      <p>Learning HTML step by step.</p>
+    </div>
+    <div>
+      <h3>Links</h3>
+      <p><a href="#text">Text</a></p>
+      <p><a href="#lists">Lists</a></p>
+      <p><a href="#media">Media</a></p>
+    </div>
+    <div>
+      <h3>Contact</h3>
+      <p>hello@mysite.example</p>
+    </div>
+    <p class="copy">&copy; 2026 My Basic Website</p>
+  </footer>
+
+</body>
+</html>
